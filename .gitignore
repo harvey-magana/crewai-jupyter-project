@@ -1,0 +1,41 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info
+
+# Python tooling/cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build/package artifacts 
+build/
+dist/
+*.egg-info/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Jupyter 
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store 
+
+# IDE / editor 
+.vscode
+.idea/
+
+
